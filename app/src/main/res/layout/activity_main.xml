@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Client.MainActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/userLocation"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Local Time"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp" />
+
+            <TextClock
+                android:id="@+id/userTextClock"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:background="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/cityLocation1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:text="@string/DefaultCity1"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="24sp" />
+
+
+                <Button
+                    android:id="@+id/changeButton1"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="-79dp"
+                    android:layout_marginLeft="-79dp"
+                    android:layout_toEndOf="@+id/cityLocation1"
+                    android:layout_toRightOf="@+id/cityLocation1"
+                    android:text="Change"
+                    android:textSize="10sp"
+                    android:visibility="invisible"
+                    tools:layout_editor_absoluteX="345dp"
+                    tools:layout_editor_absoluteY="8dp" />
+
+                <TextClock
+                    android:id="@+id/cityTextClock1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/cityLocation1"
+                    android:background="@color/colorPrimary"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/cityLocation2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:text="@string/DefaultCity2"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="24sp" />
+
+
+                <Button
+                    android:id="@+id/changeButton2"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="-79dp"
+                    android:layout_marginLeft="-79dp"
+                    android:layout_toEndOf="@+id/cityLocation2"
+                    android:layout_toRightOf="@+id/cityLocation2"
+                    android:text="Change"
+                    android:textSize="10sp"
+                    android:visibility="invisible"
+                    tools:layout_editor_absoluteX="345dp"
+                    tools:layout_editor_absoluteY="8dp" />
+
+                <TextClock
+                    android:id="@+id/cityTextClock2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/cityLocation2"
+                    android:background="@color/colorPrimary"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/cityLocation3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:text="@string/DefaultCity3"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="24sp" />
+
+
+                <Button
+                    android:id="@+id/changeButton3"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="-79dp"
+                    android:layout_marginLeft="-79dp"
+                    android:layout_toEndOf="@+id/cityLocation3"
+                    android:layout_toRightOf="@+id/cityLocation3"
+                    android:text="Change"
+                    android:textSize="10sp"
+                    android:visibility="invisible"
+                    tools:layout_editor_absoluteX="345dp"
+                    tools:layout_editor_absoluteY="8dp" />
+
+                <TextClock
+                    android:id="@+id/cityTextClock3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/cityLocation3"
+                    android:background="@color/colorPrimary"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/cityLocation4"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:inputType="text"
+                    android:text="@string/DefaultCity4"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="24sp" />
+
+
+                <Button
+                    android:id="@+id/changeButton4"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="-79dp"
+                    android:layout_marginLeft="-79dp"
+                    android:layout_toEndOf="@+id/cityLocation4"
+                    android:layout_toRightOf="@+id/cityLocation4"
+                    android:text="Change"
+                    android:textSize="10sp"
+                    android:visibility="invisible"
+                    tools:layout_editor_absoluteX="345dp"
+                    tools:layout_editor_absoluteY="8dp" />
+
+                <TextClock
+                    android:id="@+id/cityTextClock4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/cityLocation4"
+                    android:background="@color/colorPrimary"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

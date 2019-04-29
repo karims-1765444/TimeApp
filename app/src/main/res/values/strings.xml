@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TimeApp</string>
+    <string name="GoogleMapsAPIKey">AIzaSyBiMB4oXdiU7tjRkR9bU09cOI-lItd6I38</string>
+    <string name="GeocodeURL">https://maps.googleapis.com/maps/api/geocode</string>
+    <string name="DefaultCity1">Bellevue</string>
+    <string name="DefaultCity2">Denver</string>
+    <string name="DefaultCity3">Gatineau</string>
+    <string name="DefaultCity4">Oldenburg</string>
+    <string name="IntroMessage">Hello! Welcome to Karim Salem\'s TimeApp. Using this app, you can see your local time
+        as compared to the times in four locations around the world where your friends and family may be. The initial locations
+        are set to Bellevue, Denver, Gatineau, and Oldenburg. You could change them to any location you want (country, city
+        or even a street address). Enjoy and don\'t forget to hire Karim Salem.</string>
+    <string name="confirmIntroMessage">Sure, we will!</string>
+</resources>
