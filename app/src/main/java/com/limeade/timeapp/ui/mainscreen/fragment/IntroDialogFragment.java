@@ -1,4 +1,4 @@
-package com.limeade.timeapp.Client;
+package com.limeade.timeapp.ui.mainscreen.fragment;
 
 import android.app.Dialog;
 import android.app.DialogFragment;
@@ -7,6 +7,11 @@ import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 
 import com.limeade.timeapp.R;
+
+/**
+ *  A DialogFragment used to create an introductory
+ *  dialog message on launch of the main activity
+ */
 
 public class IntroDialogFragment extends DialogFragment {
     @Override
